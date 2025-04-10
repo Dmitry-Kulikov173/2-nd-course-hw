@@ -1,0 +1,237 @@
+@media (max-width: 460px) {
+    .center {
+        padding-left: calc(50% - ($width-mobile / 2));
+        padding-right: calc(50% - ($width-mobile / 2));
+    }
+
+    .header {
+        padding-top: 147px;
+
+        &__title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 49px;
+        }
+
+        &__description {
+            max-width: 296px;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        &__button {
+            width: 285px;
+            height: 55px;
+            font-size: 1rem;
+        }
+
+        &__button:hover {
+            background: $color-bg;
+            border: 1px solid rgb(32, 32, 39);
+            color: $color-w-text;
+        }
+
+        &__strip {
+            height: 51.34px;
+            margin-left: -22px;
+            margin-top: 131px;
+            gap: 27.4px;
+        }
+
+        &__strip-word {
+            font-size: 1rem;
+        }
+
+        &__strip-image {
+            width: 19.34px;
+        }
+    }
+
+    .header-svg-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &__BGstar1 {
+            position: absolute;
+            left: 74px;
+            top: -83px;
+        }
+
+        &__BGstar1 :first-child {
+            display: none;
+        }
+
+        &__BGstar1 :last-child {
+            display: block;
+        }
+
+        &__BGstar2 {
+            left: 20px;
+            top: -50px;
+        }
+
+        &__BGstar2 :nth-child(1),
+        &__BGstar2 :nth-child(2) {
+            display: none;
+        }
+
+        &__BGstar2 :nth-child(3),
+        &__BGstar2 :nth-child(4) {
+            display: block;
+        }
+
+        &__BGstar3 {
+            left: 255px;
+            top: calc(100% - 143px);
+        }
+
+        &__BGstar3 :nth-child(1),
+        &__BGstar3 :nth-child(2) {
+            display: none;
+        }
+
+        &__BGstar3 :nth-child(3),
+        &__BGstar3 :nth-child(4) {
+            display: block;
+        }
+
+        &__BGstar4 {
+            left: 286px;
+            top: calc(100% - 120px);
+        }
+
+        &__BGstar4 :nth-child(1) {
+            display: none;
+        }
+
+        &__BGstar4 :nth-child(2) {
+            display: block;
+        }
+
+        &__BGstar5 {
+            left: 202px;
+            top: -232px;
+        }
+
+        &__BGstar5 :nth-child(1),
+        &__BGstar5 :nth-child(2) {
+            display: none;
+        }
+
+        &__BGstar5 :nth-child(3),
+        &__BGstar5 :nth-child(4) {
+            display: block;
+        }
+        
+        &__triangle {
+            display: none;
+        }
+
+        &__vektor1 {
+            display: none;
+        }
+
+        &__vektor2 {
+            display: none;
+        }
+
+        &__vektor3 {
+            display: none;
+        }
+
+        &__vektor4 {
+            display: none;
+        }
+    }
+
+    .about-games {
+        display: none;
+    }
+
+    .mini-games {
+        padding-top: 48px;
+        padding-bottom: 48.8px;
+
+        &__title {
+            font-size: 2.5rem;
+            margin-bottom: 48px;
+        }
+
+        &__conteiner {
+            gap: 24px;
+        }
+
+        &__card {
+            flex-direction: column;
+
+            &_reverse {
+                flex-direction: column;
+            }
+        }
+
+        &__card-box {
+            display: flex;
+            height: fit-content;
+        }
+
+        &__SVG {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__card-img {
+            width: 74px;
+            height: 81px;
+        }
+
+        &__card-item {
+            width: 100%;
+            padding: 29px 29px 32.6px 29px;
+        }
+
+        &__card-name {
+            font-size: 2rem;
+        }
+
+        &__card-description {
+            font-size: 1rem;
+            line-height: 20px;
+            padding: 16px 0 32px 0;
+        }
+
+        &__button {
+            width: 100%;
+            height: 55px;
+            font-size: 1rem;
+            color: $color-w-text;
+            background: $color-bg;
+            border-radius: calc($card-radius * 2);
+            border: 1px solid $color-bg;
+        }
+    
+        &__button:hover {
+            background: $color-bg;
+            border: 1px solid $color-bg;
+            color: $color-w-text;
+        }
+
+        &__BGstar1,
+        &__BGstar2,
+        &__BGstar3,
+        &__BGstar4 {
+            display: none;
+        }
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &__title {
+            font-size: 1rem;
+        }
+    }
+}

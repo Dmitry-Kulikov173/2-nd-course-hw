@@ -77,7 +77,7 @@ body {
         display: flex;
         align-items: center;
         gap: 51px;
-        margin-top: 183px;
+        margin-top: 152px;
         padding: 0 49px;
         z-index: 1;
     }
@@ -237,8 +237,8 @@ body {
 
     &__BGstar1 {
         position: absolute;
-        left: 846px;
-        top: -255px;
+        left: 862px;
+        top: -252px;
     }
 
     &__BGstar2 {
@@ -380,6 +380,7 @@ body {
         background: $color-bg;
         border-radius: calc($card-radius * 2);
         border: 1px solid $color-bg;
+        cursor: pointer;
     }
 
     &__button:hover {

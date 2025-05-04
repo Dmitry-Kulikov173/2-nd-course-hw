@@ -71,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   gap: 51px;
-  margin-top: 183px;
+  margin-top: 152px;
   padding: 0 49px;
   z-index: 1;
 }
@@ -199,8 +199,8 @@ body {
 }
 .about-games__BGstar1 {
   position: absolute;
-  left: 846px;
-  top: -255px;
+  left: 862px;
+  top: -252px;
 }
 .about-games__BGstar2 {
   position: absolute;
@@ -326,6 +326,7 @@ body {
   background: rgb(32, 32, 39);
   border-radius: 60px;
   border: 1px solid rgb(32, 32, 39);
+  cursor: pointer;
 }
 .mini-games__button:hover {
   background: rgb(255, 255, 255);

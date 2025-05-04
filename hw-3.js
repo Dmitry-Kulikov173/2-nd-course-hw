@@ -1,8 +1,8 @@
 let password = "Сокол12345";
 let UserPassword = prompt ("Ведите пароль");
 let c = 0
-let d = 110;
-let e = 90;
+let d = 120;
+let e = 80;
 let a = '2';
 let b = '3';
 let monthNumber = 12;

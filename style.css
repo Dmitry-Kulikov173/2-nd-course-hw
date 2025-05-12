@@ -508,6 +508,7 @@ body {
   .mini-games__SVG {
     width: 100%;
     height: 100%;
+    border-radius: 30px;
   }
   .mini-games__card-img {
     width: 74px;
